@@ -14,7 +14,7 @@ Add `'es6-module-transpiler-amd-shim'` to your list of modules __AFTER__ the `es
 
 ## Functionality
 
-The output es6-module-transpiler output presumes that any library brought in includes `default` property where the libraries export is attached. With `v0.3.0` of the es6-module-transpiler, there were some [internal changes](https://github.com/square/es6-module-transpiler/blob/master/TRANSITION.md#internal-changes) that make it impossible to use AMD libraries if they aren't ES6 compiled themselves.  And so few are.  
+The es6-module-transpiler output presumes that any library brought in includes a `default` property where the libraries export is attached. With `v0.3.0` of the es6-module-transpiler, there were some [internal changes](https://github.com/square/es6-module-transpiler/blob/master/TRANSITION.md#internal-changes) that make it impossible to use AMD libraries if they aren't ES6 compiled themselves.  And so few are.  
 
 This shim will patch that so that this:
 
