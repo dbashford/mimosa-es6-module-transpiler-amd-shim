@@ -1,3 +1,5 @@
+This is deprecated in favor of using the `compatFix` option in the es6-module-transpiler.  It is not suggested that you use this module.
+
 # mimosa-es6-module-transpiler-amd-shim
 
 ## Overview
