@@ -1,6 +1,6 @@
 {
   "name": "mimosa-es6-module-transpiler-amd-shim",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/dbashford/mimosa-es6-module-transpiler-amd-shim",
   "author": "David Bashford",
   "description": "An ES6 module transpiler AMD shim module for Mimosa",

@@ -12,5 +12,7 @@ var _execute = function( mimosaConfig, options, next ) {
 };
 
 exports.registration = function( mimosaConfig, register ) {
-  register( [ "add", "update", "buildFile" ], "afterCompile", _execute, mimosaConfig.extensions.javascript );
+  // register( [ "add", "update", "buildFile" ], "afterCompile", _execute, mimosaConfig.extensions.javascript );
+
+  mimosaConfig.log.warn("The es6-module-transpiler-amd-shim is deprecated.")
 };
